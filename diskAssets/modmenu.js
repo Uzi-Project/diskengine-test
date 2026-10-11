@@ -158,7 +158,7 @@ let buttonStyle = 'margin: 4px;color: white;background: #5e5e5e;border-width: 4p
             SetInterpolationButton.style.visibility = 'visible';
             SetHQPenButton.style.visibility = 'visible';
             SetTurboModeButton.style.visibility = 'visible';
-            ExitModButton.textContent = 'Hide mod menu';
+            ExitModButton.textContent = 'Hide DiskMenu';
             ExitModButton.style = buttonStyle;
             modmenuOpen = true;
         }
