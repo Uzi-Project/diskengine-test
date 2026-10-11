@@ -30,7 +30,13 @@ let buttonStyle = 'margin: 4px;color: white;background: #5e5e5e;border-width: 4p
     LoadSpriteButton.style = buttonStyle;
     ModMenuDiv.appendChild(LoadSpriteButton);
 
- 
+    // Add project download button
+    var DownloadProjectButton = document.createElement("button");
+    DownloadProjectButton.hidden = false;
+    DownloadProjectButton.textContent = 'Download project file';
+    DownloadProjectButton.addEventListener('click', downloadProject);
+    DownloadProjectButton.style = buttonStyle;
+    ModMenuDiv.appendChild(DownloadProjectButton);
 
     // Add framerate button
     var SetFpsButton = document.createElement("button");
